@@ -24,5 +24,23 @@ You have been supplied with the dataset `netflix_data.csv`, along with the follo
 | `genre` | Show genre |
 
 
+# Importing pandas and matplotlib
+import pandas as pd
+import matplotlib.pyplot as plt
+
+# Read in the Netflix CSV as a DataFrame
+netflix_df = pd.read_csv("netflix_data.csv")
+# Start coding here! Use as many cells as you like
+type_col = netflix_df[['show_id', 'type', 'release_year','duration','genre']]
+movies = []
+dur=[]
+for lab, row in type_col.iterrows():
+    if row['type'] == "Movie" and row['release_year'] >= 1990 and row['release_year'] < 2000:
+        movies.append(row['show_id'])
+        dur.append(row['duration'])
+plt.hist(dur)
+plt.show()
+duration=110
+
 ![image](https://github.com/user-attachments/assets/1d4f3a8e-6e15-4e2e-90b0-066979f2e8e3)
 
