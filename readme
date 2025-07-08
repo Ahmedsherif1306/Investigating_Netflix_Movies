@@ -1,0 +1,30 @@
+# Investigating Netflix Movies 🎬
+
+This project explores a dataset of Netflix movies to uncover insights such as:
+
+- How the average movie rating changed over the years
+- Which genres are most common on Netflix
+- Distribution of movie durations
+- Trends over time
+
+## 🔧 Tools Used
+- Python
+- Pandas
+- Matplotlib
+- Seaborn
+- Jupyter Notebook
+
+## 📁 Files
+- `Investigating Netflix Movies.ipynb`: Main analysis notebook
+- `netflix_movies.csv`: Dataset used in the project
+
+## 📊 Insights
+The project contains various visualizations that help better understand the content available on Netflix, including rating trends, genre distributions, and more.
+
+## 🚀 How to Run
+Open the notebook in Jupyter or VS Code and run the cells step by step.
+
+---
+
+## 📌 Note
+This project was originally completed as part of a [DataCamp](https://www.datacamp.com/) guided project.
